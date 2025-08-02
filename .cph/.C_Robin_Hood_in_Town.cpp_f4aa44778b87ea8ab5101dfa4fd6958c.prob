@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define fast ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+#define cinv(v) for(auto &i: v) {cin>>i;}
+#define cins(s,n) for(int i=0; i<n; i++) {int k; cin>>k; s.insert(k);}
+#define coutv(v) for(auto &it: v) {cout<<it<<" ";} cout<<endl;
+#define couts(s) cout<<"{"; for(auto &it: s) {cout<<it<<", ";} cout<<"}"<<endl;
+#define coutm(m) for(auto &it: m) {cout<<it.first<<": "<<it.second<<endl;}
+#define all(v) v.begin(),v.end()
+#define rall(v) v.rbegin(),v.rend()
+#define copyto(c,v) for(int i = 0; i<v.size(); i++) c.p
